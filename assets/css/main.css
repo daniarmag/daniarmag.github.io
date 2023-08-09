@@ -2145,7 +2145,8 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 152px;
 				height: 152px;
-				 text-align: center;
+				text-align: center;
+				margin-right: 10px;
 			}
 
 /* List */
