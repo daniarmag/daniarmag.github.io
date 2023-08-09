@@ -2038,7 +2038,6 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		text-align: center;
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
@@ -2144,10 +2143,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 152px;
-				height: 152px;
-				text-align: center;
-				margin-right: 10px;
+				width: 100%;
 			}
 
 /* List */
@@ -2579,7 +2575,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		text-align: center;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2607,13 +2602,12 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: center;
+		text-align: right;
 		top: 0;
 		width: 35%;
 	}
 
 		#header > * {
-			text-align: center;
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
@@ -2622,9 +2616,6 @@ input, select, textarea {
 		}
 
 		#header > .inner {
-		        align-items: center;
-   		        justify-content: center;
-    			text-align: center; 
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2645,11 +2636,9 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
-			text-align: center;
 		}
 
 		#header .image.avatar {
-			text-align: center;
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
@@ -2657,7 +2646,6 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		text-align: center;
 		margin: 1em 0 0 0;
 	}
 
@@ -2666,7 +2654,6 @@ input, select, textarea {
 		}
 
 	#footer .copyright {
-		text-align: center;
 		color: rgba(255, 255, 255, 0.4);
 		font-size: 0.8em;
 		list-style: none;
@@ -2980,9 +2967,7 @@ input, select, textarea {
 		display: none !important;
 	}
 
-	
 	body.is-touch #header {
-		text-align: center;
 		background-attachment: scroll;
 		background-size: auto, cover;
 	}
@@ -3012,7 +2997,6 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				text-align: center;
 				padding: 6em 3em 3em 3em;
 				width: 30%;
 			}
@@ -3026,11 +3010,7 @@ input, select, textarea {
 					}
 
 				#header > .inner {
-					   align-items: center; 
-   					   justify-content: center; 
-  					   text-align: center; 
-					   text-align: center;
-					   margin-bottom: 0;
+					margin-bottom: 0;
 				}
 
 		/* Footer */
@@ -3177,7 +3157,6 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				text-align: center;
 				padding: 2.25em 1.5em;
 			}
 
@@ -3223,7 +3202,6 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
-				text-align: center;
 			}
 
 				#header h1 br {
