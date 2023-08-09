@@ -2622,7 +2622,9 @@ input, select, textarea {
 		}
 
 		#header > .inner {
-			text-align: center;
+		        align-items: center;
+   		        justify-content: center;
+    			text-align: center; 
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -3024,8 +3026,11 @@ input, select, textarea {
 					}
 
 				#header > .inner {
-					text-align: center;
-					margin-bottom: 0;
+					   align-items: center; 
+   					   justify-content: center; 
+  					   text-align: center; 
+					   text-align: center;
+					   margin-bottom: 0;
 				}
 
 		/* Footer */
